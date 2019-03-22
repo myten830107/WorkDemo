@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">返回</string>
+    <string name="drawer_grade">在校成績</string>
+    <string name="drawer_record">健康記錄</string>
+    <string name="drawer_attend">出勤記錄</string>
+    <string name="drawer_leave">請假登記</string>
+    <string name="drawer_setting">設定</string>
+    <string name="drawer_logout">登出</string>
+    <string name="drawer_separator_function">功能</string>
+    <string name="drawer_header_textview_student">學生:</string>
+    <string name="drawer_header_textview_student_name">小明</string>
+    <string name="drawer_header_textview_parent">家長:</string>
+    <string name="drawer_header_textview_parent_name">小明爸</string>
+    <string name="drawer_header_textview_teacher">導師:</string>
+    <string name="drawer_header_textview_teacher_name">孔子</string>
+    <string name="drawer_header_imageview_desc">個人照</string>
+    <string name="back_toast">請按右上角返回</string>
+</resources>

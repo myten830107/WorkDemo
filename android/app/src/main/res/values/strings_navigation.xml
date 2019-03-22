@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_bulletin">校園公佈</string>
+    <string name="navigation_contact">聯絡方式</string>
+    <string name="navigation_communication">班級記事</string>
+    <string name="navigation_campus">地圖資訊</string>
+    <string name="navigation_activity">親子活動</string>
+
+</resources>

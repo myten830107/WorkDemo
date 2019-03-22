@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_header_height"
+    android:background="@color/color_bg_79c1ae"
+    android:paddingTop="50dp">
+
+    <tw.dddssz.allschoolthings.CircleImgView
+        android:id="@+id/draw_header_imageview"
+        android:layout_width="@dimen/drawer_header_img"
+        android:layout_height="@dimen/drawer_header_img"
+        android:layout_marginStart="@dimen/marginsize"
+        android:contentDescription="@string/drawer_header_imageview_desc"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/drawer_header_textview_parent"
+        android:layout_alignStart="@+id/drawer_header_textview_teacher"
+        android:layout_marginBottom="0dp"
+        android:text="@string/drawer_header_textview_student"
+        android:textSize="@dimen/drawer_header_text_size" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/drawer_header_textview_parent_name"
+        android:layout_toEndOf="@+id/drawer_header_textview_student"
+        android:text="@string/drawer_header_textview_student_name"
+        android:textSize="@dimen/drawer_header_text_size" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/drawer_header_textview_teacher"
+        android:layout_alignStart="@+id/drawer_header_textview_teacher"
+        android:text="@string/drawer_header_textview_parent"
+        android:textSize="@dimen/drawer_header_text_size" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_parent_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/drawer_header_textview_teacher_name"
+        android:layout_toEndOf="@+id/drawer_header_textview_parent"
+        android:text="@string/drawer_header_textview_parent_name"
+        android:textSize="@dimen/drawer_header_text_size" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/draw_header_imageview"
+        android:layout_marginStart="@dimen/fontsize20"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/draw_header_imageview"
+        android:text="@string/drawer_header_textview_teacher"
+        android:textSize="@dimen/drawer_header_text_size" />
+
+    <TextView
+        android:id="@+id/drawer_header_textview_teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/drawer_header_textview_teacher"
+        android:layout_toEndOf="@+id/drawer_header_textview_teacher"
+        android:text="@string/drawer_header_textview_teacher_name"
+        android:textSize="@dimen/drawer_header_text_size" />
+</RelativeLayout>

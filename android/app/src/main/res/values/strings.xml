@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">校園大小事</string>
+
+    <string name="a0002_txt01">1.</string>
+    <string name="a0002_txt02">2019/01/01</string>
+    <string name="a0002_timetable">課表</string>
+
+    <string name="a0001_date">日期</string>
+    <string name="a0001_week">星期</string>
+    <string name="a0001_attendance">出席</string>
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="m_dd">日</string>
+    <string name="a0001_txt04">準時:</string>
+    <string name="a0001_txt05">遲到:</string>
+    <string name="a0001_txt06">病假:</string>
+    <string name="a0001_txt07">事假:</string>
+
+    <string name="txtItem_date">活動時間</string>
+    <string name="txtItem_title">活動標題</string>
+    <string name="txtItem_text">至</string>
+    <string name="Sunday">日</string>
+</resources>

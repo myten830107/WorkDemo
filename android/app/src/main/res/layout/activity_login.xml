@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_79c1ae"
+    android:padding="@dimen/marginsize"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/m0004_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/m0004_title"
+        android:textAlignment="center"
+        android:textColor="@color/color_text_3e3a39"
+        android:textSize="30sp" />
+
+    <tw.dddssz.allschoolthings.CircleImgbutton
+        android:id="@+id/m0004_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/icon"
+        android:background="#00000000"/>
+
+    <EditText
+        android:id="@+id/m0004_username"
+        style="@android:style/TextAppearance.Holo.Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0004_logo"
+        android:layout_marginStart="@dimen/marginsize"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marginsize"
+        android:background="@color/color_white_ffffff"
+        android:backgroundTint="@color/color_bg_d9ede2"
+        android:ems="10"
+        android:hint="@string/username_hint"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:labelFor="@string/username_hint"
+        android:padding="@dimen/marginsize"
+        android:textColorHint="@color/color_bg_f09b91"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/m0004_pwd"
+        style="@android:style/TextAppearance.Holo.Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0004_username"
+        android:layout_marginStart="@dimen/marginsize"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/marginsize"
+        android:background="@color/color_white_ffffff"
+        android:backgroundTint="@color/color_bg_d9ede2"
+        android:ems="10"
+        android:hint="@string/pwd_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:labelFor="@string/pwd_hint"
+        android:padding="@dimen/marginsize"
+        android:textColorHint="@color/color_bg_f09b91"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/m004_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0004_pwd"
+        android:layout_marginStart="@dimen/marginsize"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/marginsize"
+        android:background="@color/color_bg_eb6567"
+        android:text="@string/login"
+        android:textColor="@color/color_text_3e3a39"
+        android:textSize="18sp" />
+
+</RelativeLayout>

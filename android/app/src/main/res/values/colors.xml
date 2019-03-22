@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorPrimary">#79c1ae</color>
+    <color name="colorPrimaryDark">#4e988a</color>
+    <color name="colorAccent">#eb6567</color>
+    
+    <!--project-->
+    <color name="color_bg_79c1ae">#79c1ae</color>
+    <color name="color_bg_4e988a">#4e988a</color>
+    <color name="color_bg_d9ede2">#d9ede2</color>
+    <color name="color_bg_fefefe">#FEFEFE</color>
+    <color name="color_bg_c9c9ca">#c9c9ca</color>
+    <color name="color_bg_eeefef">#eeefef</color>
+    <color name="color_bg_e6ad75">#E6AD75</color>
+    <color name="color_bg_f7e2cb">#F7E2CB</color>
+    <color name="color_bg_eb6567">#eb6567</color>
+    <color name="color_bg_f09b91">#f09b91</color>
+    <color name="color_text_276351">#276351</color>
+    <color name="color_text_3e3a39">#3e3a39</color>
+
+    <!--16color-->
+    <color name="color_cyan_00ffff">#00ffff</color>
+    <color name="color_black_000000">#000000</color>
+    <color name="color_blue_0000ff">#0000ff</color>
+    <color name="color_magenta_ff00ff">#ff00ff</color>
+    <color name="color_gray_808080">#808080</color>
+    <color name="color_green_008800">#008800</color>
+    <color name="color_lime_00ff00">#00ff00</color>
+    <color name="color_maroon_800000">#800000</color>
+    <color name="color_navy_000080">#000080</color>
+    <color name="color_olive_808000">#808000</color>
+    <color name="color_purple_800080">#800080</color>
+    <color name="color_red_ff0000">#ff0000</color>
+    <color name="color_silver_c0c0c0">#c0c0c0</color>
+    <color name="color_teal_008080">#008080</color>
+    <color name="color_white_ffffff">#ffffff</color>
+    <color name="color_yellow_ffff00">#ffff00</color>
+
+    <!--other-->
+    <color name="color_darked_8b0000">#8b0000</color>
+    <color name="color_brown_a52a2a">#a52a2a</color>
+    <color name="color_firebrick_b22222">#b22222</color>
+    <color name="color_crimson_dc143c">#dc143c</color>
+
+    <color name="color_mediumvioletred_c71585">#c71585</color>
+    <color name="color_palevioletred_d87093">#d87093</color>
+    <color name="color_deeppink_ff1493">#ff1493</color>
+    <color name="color_hotpink_ff69b4">#ff69b4</color>
+    <color name="color_pink_ffc0cb">#ffc0cb</color>
+    <color name="color_lightpink_ffb6c1">#ffb6c1</color>
+    <color name="color_mistyrose_ffe4e1">#ffe4e1</color>
+    <color name="color_lavenderblush_fff0f5">#fff0f5</color>
+
+    <color name="color_indigo_4b0082">#4b0082</color>
+    <color name="color_darkmagenta_8B008B">#8B008B</color>
+    <color name="color_darkorchid_9932cc">#9932cc</color>
+    <color name="color_blueviolet">#8A2BE2</color>
+    <color name="color_darkviolet_9400d3">#9400d3</color>
+    <color name="color_slateblue_6a5acd">#6a5acd</color>
+    <color name="color_mediumpurple_9370db">#9370db</color>
+    <color name="color_mediumslateblue_7b68ee">#7b68ee</color>
+    <color name="color_mediumorchid_ba55d3">#ba55d3</color>
+    <color name="color_violet_ee82ee">#ee82ee</color>
+    <color name="color_plum_dda0dd">#dda0dd</color>
+    <color name="color_thistle_d8bfd8">#d8bfd8</color>
+    <color name="color_lavender_e6e6fa">#e6e6fa</color>
+
+    <color name="color_saddlebrown_8b4513">#8b4513</color>
+    <color name="color_sienna_a0522d">#a0522d</color>
+    <color name="color_chocolate_d2691e">#d2691e</color>
+    <color name="color_indianred">#cd5c5c</color>
+    <color name="color_rosybrown_bc8f8f">#bc8f8f</color>
+    <color name="color_lightcorol_f08080">#f08080</color>
+    <color name="color_salmon_fa8072">#fa8072</color>
+    <color name="color_lightsalmon_ffa07a">#ffa07a</color>
+    <color name="color_orangered_ff4500">#ff4500</color>
+    <color name="color_tomato_ff6347">#ff6347</color>
+    <color name="color_coral_ff7f50">#ff7f50</color>
+    <color name="color_darkorange_ff8c00">#ff8c00</color>
+    <color name="color_sandybrown_f4a460">#f4a460</color>
+    <color name="color_peru_cd853f">#cd853f</color>
+    <color name="color_tan_d2b48c">#d2b48c</color>
+    <color name="color_burlywood_deB887">#deB887</color>
+    <color name="color_wheat_f5deb3">#f5deb3</color>
+    <!--未完成-->
+    <color name="color_gold_ffd700">#ffd700</color>
+    <color name="color_darkkhaki_bdb76b">#bdb76b</color>
+
+    <color name="color_palegreen">#98F898</color>
+
+    <color name="color_Lightblue">#add8e6</color>
+    <color name="color_Water">#1d81b9</color>
+    <color name="color_cornflowerblue">#6495ED</color>
+
+
+    <color name="color_pale_d87093">#d87093</color>
+
+    <!--新增放這裡-->
+
+
+</resources>

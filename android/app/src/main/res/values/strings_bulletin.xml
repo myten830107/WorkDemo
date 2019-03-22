@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0000_description">image_missing</string>
+    <string name="m0000_b001">營養午餐</string>
+    <string name="m0000_newstitle">標題</string>
+    <string name="m0000_newstxt">內容</string>
+
+    <string name="m0000_t000"></string>
+    <string name="m0000_t001">一</string>
+    <string name="m0000_t002">二</string>
+    <string name="m0000_t003">三</string>
+    <string name="m0000_t004">四</string>
+    <string name="m0000_t005">五</string>
+    <string name="m0000_t006">六</string>
+    <string name="m0000_t007">日</string>
+
+    <string name="m0000_t011"></string>
+    <string name="m0000_t012"></string>
+    <string name="m0000_t013"></string>
+    <string name="m0000_t014"></string>
+    <string name="m0000_t015"></string>
+    <string name="m0000_t016"></string>
+    <string name="m0000_t017"></string>
+
+    <string name="m0000_t021">上課</string>
+    <string name="m0000_t022">上課</string>
+    <string name="m0000_t023">上課</string>
+    <string name="m0000_t024">上課</string>
+    <string name="m0000_t025">上課</string>
+    <string name="m0000_t026">放假</string>
+    <string name="m0000_t027">放假</string>
+</resources>

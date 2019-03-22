@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_fefefe"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/m0504_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Spacing"
+        android:background="@color/color_white_ffffff"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padminsize"
+        android:text="@string/m0504_title"
+        android:textColor="@color/color_text_3e3a39"
+        android:textSize="24sp" />
+
+    <ExpandableListView
+        android:id="@+id/contact_expandable_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_bg_d9ede2"
+        android:childDivider="@color/color_white_ffffff"
+        android:listSelector="#00000000">
+        <!--android:id="@+id/android:list"-->
+        <!--android:layoutDirection="rtl"-->
+
+    </ExpandableListView>
+
+    <!--<TextView-->
+    <!--android:id="@+id/myname"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/myname"-->
+    <!--android:textAlignment="textEnd"-->
+    <!--android:textSize="18sp" />-->
+
+</LinearLayout>
